@@ -37,6 +37,6 @@ jobs:
         uses: appleboy/ssh-action@v0.1.6
         with:
           host: ${{ secrets.EC2_HOST }}
-          username: ubuntu               # Change if neededdddddd
+          username: ubuntu               # Change if neededddddddneede
           key: ${{ secrets.EC2_SSH_KEY }}
           script: sudo systemctl restart nginx
